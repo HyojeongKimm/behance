@@ -1,0 +1,146 @@
+* {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+ul {
+	list-style: none;
+	height: 60px;
+	display: flex;
+	align-items: center;
+}
+
+nav {
+	height: 60px;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #191919;
+	color: #ffffff;
+}
+
+svg {
+	height: 16px;
+	fill: #fff;
+}
+
+
+.rf-logo-main {
+	width: 83px;
+}
+
+nav > ul > li > a {
+	color: #a4a4a4;
+}
+
+nav > ul > li > svg {
+	fill: #a4a4a4;
+}
+
+
+nav > ul > li > a > svg {
+	fill: #a4a4a4;
+}
+
+ul.middle-menu > li:nth-child(1) > a {
+	color: #fff;
+}
+
+li > a {
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff;
+}
+
+ul.middle-menu > li:nth-child(1) {
+	margin-right: 10px;
+}
+
+ul.middle-menu > li:nth-child(2), ul.middle-menu > li:nth-child(3) {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+ul.middle-menu > li:nth-child(4) {
+	margin-left: 10px;
+}
+
+
+ul.right-menu > li:nth-child(1) {
+	margin-right: 8px;
+}
+
+ul.right-menu > li:nth-child(2), ul.right-menu > li:nth-child(3) {
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+ul.right-menu > li:nth-child(4) {
+	margin-left: 8px;
+}
+
+.sign-up-button {
+    background-color: #0057ff;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.25;
+    padding: 6px 15px 6px;
+    text-shadow: none;
+    transition-duration: 300ms;
+    transition-property: background, color, border;
+    transition-timing-function: linear;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: top;
+    margin: 0 4px;
+}
+
+
+.sign-up-button > a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
+
+.under-flex {
+	display: flex;
+	align-items: center;
+}
+
+
+.under-flex > span {
+	font-size: 12px;
+}
+
+.facebook {
+	background-color: #3B599A;
+	width: 33px;
+	height: 33px;
+	padding: 7px;
+	text-align: center;
+}
+
+.google {
+	background-color: #fff;
+	width: 33px;
+	height: 33px;
+	padding: 7px;
+	text-align: center;
+}
+
+
+
+
+
+
